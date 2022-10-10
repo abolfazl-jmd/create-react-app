@@ -366,6 +366,7 @@ module.exports = function (
   const displayedCommand = useYarn ? 'yarn' : 'npm';
 
   console.log();
+  console.log('This app is configured by Abolfazl Jamshidi');
   console.log(`Success! Created ${appName} at ${appPath}`);
   console.log('Inside that directory, you can run several commands:');
   console.log();
